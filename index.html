@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Notes</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+		<main>
+			<header>
+				<h1>Notes</h1>
+			</header>
+	
+			<div class="select">
+				<label>Find your previous notes</label>
+				<select id="selectid" name="Open">
+				</select>
+			</div>
+	
+			<div class="create">
+				<label>Title</label>
+				<input id="input_name" type="text">
+			</div>
+	
+			<div class="text">
+				<label>Note</label>
+				<textarea id="input_text" name="comments"></textarea>
+			 </div>
+
+			<div class="buttons">
+				<button id="bt_create" type="button">Create New</button>
+				<button id="bt_del" type="button">Delete</button>
+				<button id="bt_save" type="button">Save</button>
+			</div>
+		</main>
+		
+		<div class="visualize">
+			<h2>View your note here:</h2>
+			<div id="show_note" class="view">
+			</div>
+		</div>
+
+
+		<script src="app.js"></script>
+	</body>
+</html>
